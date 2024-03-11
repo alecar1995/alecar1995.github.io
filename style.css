@@ -1,0 +1,115 @@
+
+:root{
+  --color-acento: #f7f4f3;
+  --color-acento-claro: #ee613033;
+  --color-texto: black;
+}
+
+/*body{
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}*/
+html{
+  scroll-behavior: smooth;
+}
+
+h3, p{
+  margin: 5px;
+}
+
+.escondido{
+  display: none;
+}
+
+a{
+  background-color: unset;
+  border:unset;
+  cursor:pointer;
+  text-decoration: none;
+  transition: 200ms;
+  color: var(--color-texto);
+}
+
+button{
+  transition: 200ms;
+}
+
+a:hover:not(#cart), button:hover{
+  color: var(--color-acento);
+}
+
+
+
+#cuenta-carrito{
+  position: absolute;
+  background-color: #f73307;
+  color: #ffff;
+  border-radius: 100%;
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  aspect-ratio: 1;
+  text-align: center;
+ 
+  /*Titulos */
+}
+.titulo {
+  height: 7%;
+  font-size: 10%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Times New Roman', sans-serif; 
+  font-size: 3vw; 
+  color: white;
+  background: linear-gradient(to right, #d603e9, 
+  #bd40cb,#27211f); 
+  padding: 2vw; 
+  box-shadow: 0 2vw 4vw rgba(15, 5, 5, 0.17); 
+  scroll-behavior: smooth;
+
+}
+  .categoria{
+    height: 7%;
+    font-size: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', sans-serif; 
+    font-size: 3vw; 
+    color: white;
+    background: linear-gradient(to right, #03e939, #b3d908,#27211f); 
+    padding: 2vw; 
+    box-shadow: 0 2vw 4vw rgba(15, 5, 5, 0.17); 
+    scroll-behavior: smooth;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-0.5vw); }
+}
+
+
+/**@media screen and (max-width: 768px) {
+  .titulo {
+      font-size: 6vw; 
+      padding: 3vw; 
+      border-radius: 7vw; 
+  }
+}**/
+
+
+
+footer{
+  text-align: center;
+  box-shadow: -1px -3px 5px rgba(0, 0, 0, 0.09);
+  padding-top: 2px;
+  margin-top: auto;
+}
+
+footer a{
+  text-decoration: underline;
+}

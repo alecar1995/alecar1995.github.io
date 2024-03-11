@@ -1,0 +1,116 @@
+body{
+    background-image: url(./img/iconos/madera.jpg);
+    
+
+    
+}
+
+/* CSS para el formulariode contacto */
+.titulo-contacto {
+    text-decoration: underline;
+    background-image: linear-gradient(180deg, #6d7ded 10%, #215536 98%);
+    margin-top: 0px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2.5px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-image: linear-gradient(180deg, #6d7ded 10%, #215536 98%);
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#titulo1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:#fff;
+
+}
+
+.contact-form h3{
+    color: white;
+}
+
+.contact-form label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    background-color: rgba(230, 226, 223, 0.941);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fcf0f0e5;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form .form-txt {
+    margin-top: 10px;
+}
+
+.contact-form .form-txt a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.contact-form .form-txt a:hover {
+    text-decoration: underline;
+}
+
+.contact-form .btn {
+    margin-top: 10px;
+    background-color: rgb(17, 5, 235);
+    color: white;
+    border-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form .btn:hover {
+    background-color: #509ff4;
+}
+.contenedor-legales{
+    background-image: linear-gradient(0deg, #6d7ded 10%, #215536 98%);
+     display: block;
+     justify-content: space-between;
+     background-color:#abacb5 ;
+     color: rgb(172, 174, 181);
+     margin-top: 2%;
+     border-radius: 1rem;
+     text-align: center;
+
+}
+
+
+
+
+.politicas {
+    background-color: rgb(57, 57, 61);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.condiciones {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (min-width: 768px) {
+    .politicas{
+        flex-direction: row;
+    }
+}
+@media (min-width: 768px) {
+    .condiciones{
+        flex-direction: row;
+    }
+}
