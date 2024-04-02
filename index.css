@@ -64,7 +64,7 @@
   background-color: #060606;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
   border-radius: 15px;
-  overflow: hidden;
+  overflow:hidden;
 
 }
 
@@ -82,7 +82,7 @@
 .slider-section img {
   width: 500px;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   border-radius: 15px;
 }
 
