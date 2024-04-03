@@ -16,10 +16,10 @@ function crearTarjetasProductosCarrito() {
     <img src="./img/productos/${producto.id}.webp" alt="muebles">
     <h3>${producto.nombre}</h3>
     <span>$${producto.precio}</span>
-    <div>
-    <button>-</button>
+    <div class"cantidad">
+    <button><</button>
     <span class="cantidad">${producto.cantidad}</span>
-    <button>+</button>
+    <button>></button>
     </div>
     `;
       contenedorTarjetas.appendChild(nuevoMueble);
