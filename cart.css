@@ -90,7 +90,7 @@ main {
 
   .tarjeta-producto img {
       margin: 10px 0;
-      width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+      width: 100px; 
       height: auto;
   }
 
