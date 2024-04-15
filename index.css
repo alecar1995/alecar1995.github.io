@@ -5,11 +5,11 @@
   gap: 10px;
   margin-top: 8px;
   justify-content: center;
-  background: linear-gradient(90deg, rgba(9, 24, 121, 0.9501050420168067) 0%, rgba(14, 194, 149, 1) 18%, rgba(9, 201, 188, 1) 87%, rgba(0, 212, 255, 1) 92%);
+  /**background: linear-gradient(90deg, rgba(9, 24, 121, 0.9501050420168067) 0%, rgba(14, 194, 149, 1) 18%, rgba(9, 201, 188, 1) 87%, rgba(0, 212, 255, 1) 92%);**/
 }
 
 .tarjeta-producto {
-  background-color: rgb(146, 115, 36);
+  background-color: rgb(214, 212, 210);
   text-align: center;
   padding: 10px;
   max-width: 300px;
