@@ -4,12 +4,13 @@
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 8px;
+  margin-bottom: 8px;
   justify-content: center;
   /**background: linear-gradient(90deg, rgba(9, 24, 121, 0.9501050420168067) 0%, rgba(14, 194, 149, 1) 18%, rgba(9, 201, 188, 1) 87%, rgba(0, 212, 255, 1) 92%);**/
 }
 
 .tarjeta-producto {
-  background-color: rgb(214, 212, 210);
+  background-color: rgb(110, 111, 112);
   text-align: center;
   padding: 10px;
   max-width: 300px;
@@ -126,8 +127,8 @@
   margin-top: 5px;
   margin-bottom: 5px;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 1vw;
+  font-family: cursive;
+  font-size: 1.5vw;
   color: rgb(8, 8, 8);
   background-color: #e7dfd8;
   padding: 2vw;

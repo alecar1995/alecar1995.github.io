@@ -5,7 +5,8 @@ main {
 }
 
 #cart-container {
-  background-image: linear-gradient(to right, #1a5c04 0%, #46f028 98%);
+  /*background-image: linear-gradient(to right, #1a5c04 0%, #46f028 98%);*/
+  background-color: #dfdcdc;
   max-width: 800px;
   margin: auto;
   gap: 60px;
@@ -53,9 +54,9 @@ main {
 
 #totales {
   text-align: center;
-  font-weight: 700;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  font-weight: 600;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 #carrito-vacio {
