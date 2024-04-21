@@ -93,3 +93,12 @@ header {
         color: white;
     }
 }
+
+/**Boton Arriba**/
+#botonArriba{
+    position:fixed;
+    bottom: 20px;
+    right: -100px;
+    width: 80px;
+    border-radius: 50%;
+}
