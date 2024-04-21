@@ -101,4 +101,5 @@ header {
     right: -100px;
     width: 80px;
     border-radius: 50%;
+    transition: all 1s;
 }
