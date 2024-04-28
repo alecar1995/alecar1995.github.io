@@ -7,8 +7,8 @@ body{
 
 /* CSS para el formulariode contacto */
 .titulo-contacto {
-    text-decoration: underline;
-    background-image: linear-gradient(180deg, #6d7ded 10%, #215536 98%);
+    text-decoration: none;
+    background-color: darkcyan;
     margin-top: 0px;
     border-radius: 10px;
     text-align: center;
