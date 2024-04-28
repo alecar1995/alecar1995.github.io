@@ -76,3 +76,19 @@ alertButton.addEventListener('click', function() {
   formulario.reset(); 
 });
 
+/**Empieza JS de los legales */
+
+function mostrar(){
+  document.getElementById('condiciones').style.display ='block';
+}
+function Ocultar(){
+  document.getElementById('condiciones').style.display ='none';
+}
+
+function muestra(){
+  document.getElementById('politicas').style.display ='block';
+}
+function Oculta(){
+  document.getElementById('politicas').style.display ='none';
+}
+

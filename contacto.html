@@ -6,50 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./style.css">
+    
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./footer.css">
     <link rel="stylesheet" href="./header.css">
-	<link rel="stylesheet" href="./style.css">
-	<link rel="stylesheet" href="./index.css">
-	<link rel="stylesheet" href="./footer.css">
-	<link rel="stylesheet" href="./header.css">
-	<script src="./js/Muebles.js"></script>
-	<script src="./js/cartService.js" defer></script>
-	<script src="./js/index.js" defer></script>
+ 
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./header.css">
+    <script src="./js/Muebles.js"></script>
+    <script src="./js/cartService.js" defer></script>
+    <script src="./js/index.js" defer></script>
     <title>Contacto</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="contactos.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
-        
+
 
 </head>
 
 <body>
 
     <header>
-		<div class="inicio">
-			<a href="/index.html"><img src="./img/CP Clapa Muebles-logos_black.png" alt="Logo" class="Logo">
-				<a href="./cart.html" id="cart"><img src="./img/iconos/shopping-cart.png" alt="carrito"
-						class="Logo-Carrito"><span id="cuenta-carrito">0</span></a>
-		</div>
-		<button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
-		<nav class="nav" id="nav">
-			<button class="cerrar-menu" id="cerrar"><i class="bi bi-x-lg"></i></button>
-			<ul class="nav-list">
-				<li><a href="./index.html#cate">Categorias</a></li>
-				<li><a href="./index.html#titu">Productos</a></li>
-				<li><a href="/mision.html">Nuestra Mision</a></li>
-				<li><a href="/contacto.html">Contacto</a></li>
-			</ul>
+        <div class="inicio">
+            <a href="/index.html"><img src="./img/CP Clapa Muebles-logos_black.png" alt="Logo" class="Logo">
+                <a href="./cart.html" id="cart"><img src="./img/iconos/shopping-cart.png" alt="carrito"
+                        class="Logo-Carrito"><span id="cuenta-carrito">0</span></a>
+        </div>
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x-lg"></i></button>
+            <ul class="nav-list">
+                <li><a href="./index.html#cate">Categorias</a></li>
+                <li><a href="./index.html#titu">Productos</a></li>
+                <li><a href="/mision.html">Nuestra Mision</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
 
-		</nav>
-	</header>
+        </nav>
+    </header>
 
 
     <Main>
@@ -64,35 +65,40 @@
             <h3>Contacto</h3>
             <form action="https://formsubmit.co/1alecar1995@gmail.com" method="POST">
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" >
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
                 <p></p>
 
                 <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" >
+                <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido">
                 <p></p>
 
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico" >
+                <input type="email" id="email" name="email" placeholder="Escribe tu correo electrónico">
                 <p></p>
 
                 <label for="telefono">Teléfono:</label>
                 <input type="tel" id="telefono" name="telefono"
                     placeholder="Escribe tu teléfono con código de área ej. 011">
-                    <p></p>
+                <p></p>
 
                 <label for="message">Mensaje:</label>
                 <textarea name="message" id="message" cols="30" rows="5" placeholder="Déjanos tu mensaje"></textarea>
                 <p></p>
 
                 <div class="form-txt">
-                    <a href="#politicas">Polit. de Privacidad</a>
-                    <a href="#condiciones">Términos y Condiciones</a>
+
                 </div>
                 <input class="btn" type="submit" value="Enviar">
             </form>
+            <Div class="Legales">
+                <a id="BotonCondiciones" href="#politicas" onclick="mostrar();">Térm y Condiciones</a>
+                <a id="BotonPoliticas" href="#politicas" onclick="muestra();">politicas de Privacidad</a>
+            
+            </Div>
         </div>
     </main>
-    <div class="contenedor-legales">
+    <div class="contlegales">
+
         <div class="condiciones" id="condiciones">
             <h1><i>Terminos y condiciones</i></h1>
             <h2>1. Aceptación de los Términos</h2>
@@ -132,6 +138,7 @@
             <p>Estos Términos y Condiciones se regirán e interpretarán de acuerdo con las leyes del [País], y usted se
                 somete
                 irrevocablemente a la jurisdicción exclusiva de los tribunales de dicho estado o ubicación.</p>
+                <button class="btnLegales" id="boton" onclick="Ocultar();">Estoy de Acuerdo</button>
         </div>
         <div>
             <div class="politicas" id="politicas">
@@ -224,6 +231,7 @@
                     <li>telefono 11-7364-1350</li>
                 </ul>
                 <h2>Fecha de Última Modificación: 12/02/2024</h2>
+                <button class="btnLegales" id="boton" onclick="Oculta();">Estoy de Acuerdo</button>
             </div>
         </div>
     </div>
@@ -270,7 +278,8 @@
                                 alt="icono redes sociales"></a>
                     </li>
                     <li>
-                        <a href="https://wa.me/5491173641350" target="_blank"><img src="./img/iconos/Whatsapp.svg" alt="icono Whatsapp"></a>
+                        <a href="https://wa.me/5491173641350" target="_blank"><img src="./img/iconos/Whatsapp.svg"
+                                alt="icono Whatsapp"></a>
                     </li>
                 </ul>
             </div>
@@ -290,7 +299,7 @@
     </footer>
 
 
-	<script src="/js/form.js"></script>
+    <script src="/js/form.js"></script>
 
 </body>
 
