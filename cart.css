@@ -34,9 +34,11 @@ main {
 }
 
 #cantidad {
-  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  display:flexbox;
   align-content: center;
-  flex-direction: column;
+ flex-direction: column;
 
 }
 

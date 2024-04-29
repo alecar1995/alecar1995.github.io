@@ -162,12 +162,12 @@ const muebles = [
       img: "27.webp",
       precio: 40000
   },
-  {
+  /*{
       id: 28,
       nombre: "Rack flotante",
       img: "28.webp",
       precio: 40000
-  },
+  },*/
   {
       id: 29,
       nombre: " Rack 2 puertas, alero, patas a lo largo, sin manijas ",
@@ -366,7 +366,7 @@ const muebles = [
       img: "61.webp",
       precio: 30000
   },
-  {
+  /*{
       id: 62,
       nombre: "Cajonera 8 cajones, sin manijas",
       img: "62.webp",
@@ -383,6 +383,6 @@ const muebles = [
       nombre: "Cajonera 8 cajones, manijas de madera",
       img: "64.webp",
       precio: 30000
-  },
+  },*/
   
 ];
