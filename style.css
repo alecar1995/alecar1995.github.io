@@ -1,8 +1,9 @@
 
 :root{
   --color-acento: #f7f4f3;
-  --color-acento-claro: #ee613033;
-  --color-texto: black;
+  --color-acento-claro: #f7f4f3;
+  --color-texto: #f7f4f3
+  ;
 }
 
 /*body{

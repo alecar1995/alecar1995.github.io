@@ -8,6 +8,7 @@
 }
 
 header {
+    height: 13vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,27 +18,32 @@ header {
 
 .inicio {
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
 .Logo {
-    max-width: 7rem;
+    max-width: 17vw;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 .Logo-Carrito {
-    max-width: 2rem;
+    max-width: 2.5rem;
 }
 
 .nav-list {
-    font-size: 1.5rem;
-    list-style-type: none;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    list-style-type: disc;
     display: flex;
     gap: 5rem;
 }
 
 .nav-list li a {
     text-decoration: none;
-    color: #1c1c1c;
+    color: #f2f1f6;
 }
 
 .abrir-menu,
@@ -46,22 +52,25 @@ header {
 }
 
 @media screen and (max-width: 680px) {
+
     .abrir-menu,
     .cerrar-menu {
         display: block;
         border: 0;
         font-size: 1.5rem;
         background-color: transparent;
-        cursor:pointer;
+        cursor: pointer;
     }
-.abrir-menu{
-    color: #1c1c1c;
-}
-.cerrar-menu{
-    color: #ececec;
-}
 
-    .nav{
+    .abrir-menu {
+        color: #1c1c1c;
+    }
+
+    .cerrar-menu {
+        color: #ececec;
+    }
+
+    .nav {
         opacity: 0;
         visibility: hidden;
 
@@ -78,7 +87,7 @@ header {
     }
 
 
-    .nav.visible{
+    .nav.visible {
         opacity: 1;
         visibility: visible;
     }
@@ -95,8 +104,8 @@ header {
 }
 
 /**Boton Arriba**/
-#botonArriba{
-    position:fixed;
+#botonArriba {
+    position: fixed;
     bottom: 20px;
     right: -100px;
     width: 80px;
