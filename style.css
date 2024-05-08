@@ -62,28 +62,28 @@ a:hover:not(#cart), button:hover{
   margin-top: 5px;
   margin-bottom: 5px;
   text-align: center;
-  font-family: cursive;
+  font-family: monospace;
   font-size: 5vw; 
-  color: rgb(250, 246, 246);
-  text-decoration-line:underline;
+  color: white;
+  text-decoration-line:none;
   background-color: darkcyan;
   /**background: linear-gradient(to right, #d603e9, 
   #bd40cb,#27211f);**/ 
   padding: 2vw; 
-  box-shadow: 0 2vw 4vw rgba(15, 5, 5, 0.17); 
+  box-shadow: 0 2vw 4vw rgba(247, 15, 15, 0.17); 
   scroll-behavior: smooth;
-
 }
+
   .categoria{
     height: 7%;
     font-size: 10%;
     margin-top: 5px;
     margin-bottom: 5px;
     text-align:center;
-    font-family: cursive;
+    font-family: monospace;
     font-size: 5vw; 
     color: rgb(250, 246, 246);
-    text-decoration-line:underline;
+    text-decoration-line:none;
     background-color: darkcyan;
     /**background: linear-gradient(to right, #03e939, #b3d908,#27211f); **/
     padding: 2vw; 

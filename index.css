@@ -10,6 +10,9 @@
 }
 
 .tarjeta-producto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: darkcyan;
   text-align: center;
   padding: 10px;
@@ -122,13 +125,12 @@
 /**textos**/
 
 .texto-1 {
-  height: 5%;
-  font-size: 2%;
+  height: 4%;
   margin-top: 5px;
   margin-bottom: 5px;
   text-align: center;
-  font-family: cursive;
-  font-size: 1.5vw;
+  font-family: monospace;
+  font-size: 1.65vw;
   color: rgb(8, 8, 8);
   background-color: #e7dfd8;
   padding: 2vw;
